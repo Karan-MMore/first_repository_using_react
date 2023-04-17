@@ -33,6 +33,15 @@
     width: 80%;
 }
 
+
+.home_main_div{
+    width: 100%;
+    height: 70vh;
+    background-image: url('./assets/sale_banner.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
 @media only screen and (max-width: 900px) {
     .main-div-login{
         width: 100%;

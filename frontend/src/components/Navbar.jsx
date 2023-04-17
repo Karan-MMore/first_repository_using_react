@@ -217,15 +217,14 @@ export default function Navbar() {
                 </Link>
               </li>
               <li role="none" className="flex items-stretch">
-                <Link
-                  role="menuitem"
-                  aria-haspopup="false"
-                  tabIndex="0"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-emerald-500 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
-                  to='/register'
-                >
-                  <span>Register</span>
-                </Link>
+              
+            <select className="  text-gray-500 bg-white">
+                <option>Electronics</option>
+                <option>Jewelery</option>
+                <option>Men's clothing</option>
+                <option>Women's clothing</option>
+            </select>
+        
               </li>
             </ul>
             {/*      <!-- Actions --> */}
