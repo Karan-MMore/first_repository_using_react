@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Register from './components/Register'
 import Signin from './components/Signin'
 import Footer from './components/Footer'
+import ElectronicsCompo from './components/ElectronicsCompo';
 function App() {
 
   return (
@@ -13,6 +14,7 @@ function App() {
      <Navbar/>
      <Routes>
       <Route path='/' element={<Home/>}/>
+      <Route path='/electronic' element={<ElectronicsCompo/>}/>
       <Route path='/register' element={<Register/>}/>
       <Route path='/signin' element={<Signin/>}/>
      </Routes>

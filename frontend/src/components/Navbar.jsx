@@ -205,25 +205,16 @@ export default function Navbar() {
                 </Link>
               </li>
               <li role="none" className="flex items-stretch">
-                <Link
+              <Link
                   role="menuitem"
                   aria-current="page"
                   aria-haspopup="false"
                   tabIndex="0"
                   className="flex items-center gap-2 py-4 text-emerald-500 transition-colors duration-300 hover:text-emerald-600 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
-                  to='/signin'
+                  to='/electronic'
                 >
-                  <span>sign in</span>
+                  <span>cat</span>
                 </Link>
-              </li>
-              <li role="none" className="flex items-stretch">
-              
-            <select className="  text-gray-500 bg-white">
-                <option>Electronics</option>
-                <option>Jewelery</option>
-                <option>Men's clothing</option>
-                <option>Women's clothing</option>
-            </select>
         
               </li>
             </ul>

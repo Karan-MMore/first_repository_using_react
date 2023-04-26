@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import "../App.css";
+
 // import productList from './productList';
 export default function Home() {
   const [resp, setResp] = useState([]);
@@ -58,6 +59,8 @@ export default function Home() {
           })}
         </div>
       </div>
+   
+
     </>
   );
 }
